@@ -10,7 +10,7 @@ def print_hi(name):
 
 def randomfuggveny(a,b):
     return a*b
-randomfuggveny(5,7)
+randomfuggveny(5,6)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
