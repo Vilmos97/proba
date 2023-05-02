@@ -22,6 +22,16 @@ rets=portfolio(means,covmat,nsim)
 plt.scatter(rets,rets)
 plt.show()
 
+#effektív hozamokat létrehozni
+def effektív(hozamok):
+    return np.exp(hozamok,)-1
+pf_ef=effektív(portfolio)
+print(pf_ef)
+#pf hozam=sulyozott eff hozamok
+
+
+#
+
 
 
 
